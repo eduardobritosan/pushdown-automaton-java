@@ -1,0 +1,13 @@
+p q r
+a b
+S A
+p
+S
+r
+p a S p AS
+p a A p AA
+p b A q #
+q b A q #
+q # S r # 
+
+
