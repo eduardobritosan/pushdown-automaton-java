@@ -19,4 +19,8 @@ public class Alphabet {
 		super();
 		this.alphabet = alphabet;
 	}
+	
+	public Alphabet(){
+		alphabet = new ArrayList<String>();
+	}
 }

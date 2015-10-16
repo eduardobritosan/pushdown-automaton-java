@@ -41,7 +41,6 @@ public class Delta {
 		setNextState(tokenizer.nextToken());
 		this.nextElementToPushStack = new ArrayList<String>();
 		setNextElementToPushStack(Arrays.asList(tokenizer.nextToken().split("")));
-		Integer p = 0;
 	}
 	/**
 	 * @return the initialState

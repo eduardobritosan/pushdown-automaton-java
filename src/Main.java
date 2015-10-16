@@ -9,6 +9,7 @@ public class Main {
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("Introduzca la cadena de entrada");
 		String input = keyboard.nextLine();
+		keyboard.close();
 		
 		HashMap<String, State> statesHash = new HashMap<String, State>();
 		HashMap<String, ArrayList<Delta>> deltaHash = new HashMap<String, ArrayList<Delta>>();

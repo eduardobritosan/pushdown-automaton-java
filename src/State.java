@@ -11,6 +11,10 @@ public class State {
 		setId(id);
 		setFinalState(false);
 	}
+	public State() {
+		setId(new String());
+		setFinalState(false);
+	}
 	public String getId() {
 		return id;
 	}
